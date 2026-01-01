@@ -40,8 +40,8 @@ Each programming language is organized on a **separate branch** for easy managem
 | **Python** | `python` | ![Active](https://img.shields.io/badge/-Active-success) |
 | **Java** | `java` | ![Active](https://img.shields.io/badge/-Active-success) |
 | **C++** | `cpp` | ![Planned](https://img.shields.io/badge/-Active-success) |
-| **JavaScript** | `javascript` | ![Active](https://img.shields.io/badge/-Active-success) |
-| **Go** | `golang` | ![Active](https://img.shields.io/badge/-Planned-yellow) |
+| **JavaScript** | `javascript` | ![Planned](https://img.shields.io/badge/-Planned-yellow) |
+| **Go** | `golang` | ![Active](https://img.shields.io/badge/-Active-success) |
 | **Rust** | `rust` | ![Planned](https://img.shields.io/badge/-Planned-yellow) |
 
 > ⚠️ **Note:** The `main` branch serves as a **landing page only** - no solution code here!
