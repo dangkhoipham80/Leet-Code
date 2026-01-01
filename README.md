@@ -10,32 +10,32 @@
 
 > *"Consistency beats talent when talent doesn't work hard."*
 
-**[Về Repository](#-về-repository-này) • [Cấu trúc](#-cấu-trúc-repository) • [Contribution](#-contribution-guidelines) • [Mục tiêu](#-mục-tiêu-2026)**
+**[About](#-about-this-repository) • [Structure](#-repository-structure) • [Contribution](#-contribution-guidelines) • [Goals](#-2026-goals)**
 
 </div>
 
 ---
 
-## 📖 Về Repository này
+## 📖 About This Repository
 
-Chào mừng bạn đến với **LeetCode Daily Challenge Repository** của tôi! Đây là nơi tôi:
+Welcome to my **LeetCode Daily Challenge Repository**! This is where I:
 
-- 💪 Luyện tập thuật toán **mỗi ngày** để duy trì sự nhạy bén
-- 🧠 Rèn luyện tư duy **Problem Solving** và **Data Structures**
-- 🎯 Chuẩn bị cho các kỳ phỏng vấn **Software Engineer / Backend Developer**
-- 📈 Xây dựng thói quen **code consistency** - không bỏ cuộc giữa chừng
+- 💪 Practice algorithms **every day** to maintain sharpness
+- 🧠 Develop **Problem Solving** and **Data Structures** skills
+- 🎯 Prepare for **Software Engineer / Backend Developer** interviews
+- 📈 Build **coding consistency** habits - never give up halfway
 
-Repository này không chỉ là nơi lưu trữ code, mà còn là **hành trình chinh phục bản thân** của tôi trong thế giới thuật toán.
+This repository is not just a code storage, but also **my personal journey** of conquering the world of algorithms.
 
 ---
 
-## 🌳 Cấu trúc Repository
+## 🌳 Repository Structure
 
-### 📂 Tổ chức theo Branch
+### 📂 Organization by Branch
 
-Mỗi ngôn ngữ lập trình được tổ chức trên **branch riêng biệt** để dễ dàng quản lý và theo dõi:
+Each programming language is organized on a **separate branch** for easy management and tracking:
 
-| 💻 Ngôn ngữ | 🌿 Branch | 📊 Trạng thái |
+| 💻 Language | 🌿 Branch | 📊 Status |
 |------------|----------|--------------|
 | **Python** | `python` | ![Active](https://img.shields.io/badge/-Active-success) |
 | **Java** | `java` | ![Active](https://img.shields.io/badge/-Active-success) |
@@ -44,15 +44,15 @@ Mỗi ngôn ngữ lập trình được tổ chức trên **branch riêng biệt
 | **Go** | `golang` | ![Planned](https://img.shields.io/badge/-Planned-yellow) |
 | **Rust** | `rust` | ![Planned](https://img.shields.io/badge/-Planned-yellow) |
 
-> ⚠️ **Lưu ý:** Branch `main` chỉ làm **landing page** - không chứa code bài giải!
+> ⚠️ **Note:** The `main` branch serves as a **landing page only** - no solution code here!
 
 ---
 
-## 🗂️ Cấu trúc thư mục
+## 🗂️ Folder Structure
 
-Trong mỗi branch ngôn ngữ, code được tổ chức theo 2 cách:
+Within each language branch, code is organized in 2 ways:
 
-### 📅 **Option 1: Theo ngày**
+### 📅 **Option 1: By Date**
 
 ```
 LeetCode/
@@ -66,7 +66,7 @@ LeetCode/
 └── README.md
 ```
 
-### 🏷️ **Option 2: Theo chủ đề**
+### 🏷️ **Option 2: By Topic**
 
 ```
 LeetCode/
@@ -91,70 +91,70 @@ LeetCode/
 
 ## 🤝 Contribution Guidelines
 
-Đây là **personal repository** để tôi luyện tập, nhưng tôi rất hoan nghênh mọi đóng góp chất lượng!
+This is a **personal repository** for my practice, but I welcome all quality contributions!
 
-### ⚖️ Nguyên tắc cơ bản
+### ⚖️ Basic Rules
 
-| ✅ Được phép | ❌ Không được phép |
+| ✅ Allowed | ❌ Not Allowed |
 |-------------|-------------------|
-| Fork & Pull Request | Push trực tiếp vào repo |
-| Đóng góp solution chất lượng | Copy/paste solution từ internet |
-| Giải thích approach & complexity | Spam hoặc PR không liên quan |
-| Optimize existing solutions | Thay đổi cấu trúc repo tùy tiện |
+| Fork & Pull Request | Direct push to repo |
+| Quality solution contributions | Copy/paste solutions from internet |
+| Explain approach & complexity | Spam or irrelevant PRs |
+| Optimize existing solutions | Arbitrary repo structure changes |
 
-### 🔄 Quy trình Contribution
+### 🔄 Contribution Process
 
-1. **Fork** repository này về tài khoản của bạn
-2. **Clone** fork về máy local
+1. **Fork** this repository to your account
+2. **Clone** the fork to your local machine
    ```bash
    git clone https://github.com/<your-username>/leetcode-daily.git
    ```
-3. **Checkout** sang branch ngôn ngữ tương ứng
+3. **Checkout** to the corresponding language branch
    ```bash
-   git checkout python  # hoặc java, cpp, javascript...
+   git checkout python  # or java, cpp, javascript...
    ```
-4. **Tạo branch mới** cho solution của bạn
+4. **Create a new branch** for your solution
    ```bash
    git checkout -b feature/add-solution-XXX
    ```
-5. **Commit** với message rõ ràng
+5. **Commit** with clear message
    ```bash
    git commit -m "Add: [Problem Name] - Approach: [O(n) time]"
    ```
-6. **Push** lên fork của bạn
+6. **Push** to your fork
    ```bash
    git push origin feature/add-solution-XXX
    ```
-7. **Tạo Pull Request** về branch ngôn ngữ tương ứng trên repo gốc
+7. **Create Pull Request** to the corresponding language branch on the original repo
 
-### 📝 Template Pull Request
+### 📝 Pull Request Template
 
-Khi tạo PR, vui lòng cung cấp:
+When creating a PR, please provide:
 
 ```markdown
 ## Problem
-- **LeetCode Link:** [Đường dẫn đến bài toán]
+- **LeetCode Link:** [Link to the problem]
 - **Difficulty:** Easy / Medium / Hard
 - **Topics:** Array, DP, Graph, etc.
 
 ## Solution
-- **Approach:** [Mô tả cách tiếp cận]
+- **Approach:** [Describe your approach]
 - **Time Complexity:** O(?)
 - **Space Complexity:** O(?)
 
 ## Notes
-[Bất kỳ ghi chú nào khác về solution]
+[Any other notes about the solution]
 ```
 
 ### 🔍 Review Process
 
-- ✅ Tôi sẽ review **tất cả PRs** trong vòng 48h
-- ✅ PRs chất lượng sẽ được **merge** và **credit** đầy đủ
-- ❌ PRs spam/copy sẽ bị **reject** ngay lập tức
+- ✅ I will review **all PRs** within 48 hours
+- ✅ Quality PRs will be **merged** with full **credit**
+- ❌ Spam/copy PRs will be **rejected** immediately
 
 ---
 
-## 🎯 Mục tiêu 2026
+## 🎯 2026 Goals
 
 <div align="center">
 
@@ -164,16 +164,16 @@ Khi tạo PR, vui lòng cung cấp:
 
 </div>
 
-| Mục tiêu | Trạng thái | Deadline |
+| Goal | Status | Deadline |
 |---------|-----------|----------|
-| 📅 Hoàn thành 365 LeetCode Daily | 🔄 In Progress | 31/12/2026 |
-| 🚀 Đạt rating 2000+ trên LeetCode | 🎯 Target | Q4 2026 |
+| 📅 Complete 365 LeetCode Daily | 🔄 In Progress | Dec 31, 2026 |
+| 🚀 Reach 2000+ rating on LeetCode | 🎯 Target | Q4 2026 |
 | 💼 Senior Backend Engineer Level | 🎯 Target | 2026 |
 | 🌍 Master 4+ Programming Languages | 🔄 In Progress | 2026 |
 
 ---
 
-## 📊 Thống kê (Cập nhật tự động)
+## 📊 Statistics (Auto-updated)
 
 ```
 Total Problems Solved:     0 / 3,000+
@@ -183,49 +183,49 @@ Total Problems Solved:     0 / 3,000+
 
 Current Streak:            0 days
 Longest Streak:            0 days
-Last Updated:              01/01/2026
+Last Updated:              Jan 01, 2026
 ```
 
 ---
 
-## 💡 Tại sao lại luyện LeetCode mỗi ngày?
+## 💡 Why Practice LeetCode Daily?
 
 > 🎓 **"Algorithms are to computer science what mathematics is to science."**
 
-### Lợi ích thiết thực:
+### Practical Benefits:
 
-1. **🧠 Tư duy logic tốt hơn** - Giải quyết vấn đề nhanh và hiệu quả hơn
-2. **💼 Phỏng vấn tự tin** - Sẵn sàng cho FAANG, startups, hoặc bất kỳ công ty tech nào
-3. **⚡ Code optimization** - Viết code nhanh hơn, ít bug hơn
-4. **🏅 Competitive mindset** - Luôn muốn học hỏi và cải thiện
+1. **🧠 Better logical thinking** - Solve problems faster and more efficiently
+2. **💼 Confident interviews** - Ready for FAANG, startups, or any tech company
+3. **⚡ Code optimization** - Write faster code with fewer bugs
+4. **🏅 Competitive mindset** - Always eager to learn and improve
 
 ---
 
-## 🌟 Lời khuyên cho người mới bắt đầu
+## 🌟 Tips for Beginners
 
 <details>
-<summary><b>👉 Click để xem tips</b></summary>
+<summary><b>👉 Click to see tips</b></summary>
 
-### 1️⃣ Bắt đầu từ Easy
-Đừng vội vàng nhảy vào Hard. Hãy làm chắc Easy trước.
+### 1️⃣ Start with Easy
+Don't rush into Hard problems. Master Easy first.
 
-### 2️⃣ Hiểu trước khi code
-Đọc kỹ đề, vẽ sơ đồ, test case tay trước khi code.
+### 2️⃣ Understand before coding
+Read carefully, draw diagrams, test manually before coding.
 
-### 3️⃣ Phân tích Complexity
-Luôn tự hỏi: Time O(?) và Space O(?) của solution này là gì?
+### 3️⃣ Analyze Complexity
+Always ask: What's the Time O(?) and Space O(?) of this solution?
 
-### 4️⃣ Học từ solution khác
-Sau khi AC, đọc solution của người khác để học cách tiếp cận mới.
+### 4️⃣ Learn from other solutions
+After AC, read others' solutions to learn new approaches.
 
 ### 5️⃣ Consistency > Intensity
-Làm 1 bài/ngày tốt hơn 10 bài/tuần rồi nghỉ.
+1 problem/day is better than 10 problems/week then quit.
 
 </details>
 
 ---
 
-## 📚 Resources hữu ích
+## 📚 Useful Resources
 
 - 🔗 [LeetCode Official](https://leetcode.com)
 - 📖 [NeetCode Roadmap](https://neetcode.io/roadmap)
@@ -234,7 +234,7 @@ Làm 1 bài/ngày tốt hơn 10 bài/tuần rồi nghỉ.
 
 ---
 
-## 📌 Trích dẫn truyền cảm hứng
+## 📌 Inspirational Quotes
 
 <div align="center">
 
@@ -251,15 +251,15 @@ Làm 1 bài/ngày tốt hơn 10 bài/tuần rồi nghỉ.
 
 ---
 
-## 📬 Liên hệ & Kết nối
+## 📬 Contact & Connect
 
-Nếu bạn cũng đang trên hành trình chinh phục thuật toán, hãy kết nối với tôi:
+If you're also on a journey to conquer algorithms, let's connect:
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)]([https://leetcode.com](https://leetcode.com/u/dangkhoi2204/))
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]([https://github.com](https://github.com/dangkhoipham80))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com](https://www.linkedin.com/in/khoipham4022/))
 
 </div>
 
@@ -267,18 +267,18 @@ Nếu bạn cũng đang trên hành trình chinh phục thuật toán, hãy kế
 
 ## 📄 License
 
-This project is licensed under the MIT License - xem file [LICENSE](LICENSE) để biết thêm chi tiết.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-### 🔥 Hãy cùng nhau chinh phục thuật toán mỗi ngày!
+### 🔥 Let's conquer algorithms together, one day at a time!
 
-**Made with ❤️ and ☕ by [Your Name]**
+**Made with ❤️ and ☕ by [Phạm Đăng Khôi]**
 
-[![Star this repo](https://img.shields.io/github/stars/yourusername/leetcode-daily?style=social)](https://github.com/yourusername/leetcode-daily)
-[![Follow me](https://img.shields.io/github/followers/yourusername?style=social)](https://github.com/yourusername)
+[![Star this repo](https://img.shields.io/github/stars/yourusername/leetcode-daily?style=social)](https://github.com/dangkhoipham80/Leetcode)
+[![Follow me](https://img.shields.io/github/followers/yourusername?style=social)](https://github.com/dangkhoipham80)
 
 *"Code is like humor. When you have to explain it, it's bad." — Cory House*
 
